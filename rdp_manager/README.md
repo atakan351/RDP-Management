@@ -2,8 +2,6 @@ RDP Yöneticisi
 
 RDP Yöneticisi, Windows, Linux ve macOS ortamlarında çalışan, uzak masaüstü bağlantılarını (RDP) yönetmek için geliştirilmiş bir Flutter tabanlı masaüstü uygulamasıdır. Uygulama, RDP bağlantılarını kategorilere ayırmanıza, düzenlemenize, silmenize ve kolayca başlatmanıza imkan tanır.
 
-
-
 Özellikler
 
 ✉️ Bağlantı Yönetimi
@@ -24,43 +22,17 @@ Manuel/otomatik sunucu erişilebilirlik kontrolü
 
 🔍 Arayüz ve Kullanım
 
-Grid düzeniyle sunucu kartları (kendi satır sayını ayarlayabilirsin)
+Grid düzeniyle sunucu kartları (satır sayısı ayarlanabilir)
 
-Karanlık/açık tema
+Karanlık/açık tema desteği
 
-Sunucu kartında bağlantı test, düzenleme, silme butonları
-
-İsim, adres, açıklama veya kategoriye göre filtreleme
+Sunucu arama ve filtreleme (isim, adres, kategori vb.)
 
 ⚙ Ayarlar
 
-Otomatik yenileme aralığı belirleme
+Otomatik yenileme süresi ayarlama
 
-Grid satır başı sunucu sayısı ayarlama
-
-Teknik Bilgiler
-
-Kullanılan Teknolojiler
-
-Dart 3.x
-
-Flutter (cross-platform UI toolkit)
-
-SQLite (sqflite & sqflite_common_ffi)
-
-Platformlar: Windows, Linux, macOS
-
-Mimari Yapı
-
-MVC benzeri yapı
-
-RdpConnection, AppSettings modelleri
-
-DatabaseService, RdpService, PingService servisleri
-
-Bağımlılıklar
-
-sqflite, sqflite_common_ffi, intl, path
+Grid düzeninde satır başı sunucu sayısı belirleme
 
 Kurulum ve Kullanım
 
@@ -68,11 +40,11 @@ Uygulamayı çalıştır
 
 + butonuyla yeni bağlantı ekle
 
-Kategori seçerek bağlantıları grupla
+Bağlantıları kategorilere ayır
 
-Kartlara tıklayarak bağlantı başlat
+Sunucu kartlarından RDP bağlantısı başlat
 
-Ayarlar menüsünden grid düzenini ayarla
+Ayarlar menüsünden grid yapısını ve yenileme süresini düzenle
 
 Lisans
 
@@ -80,78 +52,53 @@ MIT Lisansı
 
 RDP Manager
 
-RDP Manager is a cross-platform Flutter application designed to manage Remote Desktop (RDP) connections on Windows, Linux, and macOS. It allows users to categorize, organize, test, and launch multiple RDP connections from a single interface.
+RDP Manager is a cross-platform Flutter application that allows users to manage Remote Desktop (RDP) connections across Windows, Linux, and macOS. Users can organize, monitor, and launch RDP sessions with ease.
 
 Features
 
-🚀 RDP Connection Management
+🚀 Connection Management
 
-Add, edit, delete connections
+Add, edit, delete RDP connections
 
-Categorize and display them in grid view
+Categorize and group connections
 
-One-click launch support
+One-click to start a session
 
 🔧 Server Monitoring
 
-Manual/automatic server reachability check
+Manual or automatic reachability check
 
-Real-time offline notifications (Snackbar)
+Real-time offline alerts via snackbar
 
-Offline duration tracking
+Track downtime duration
 
-🔍 User Interface
+🔍 Interface & Usage
 
-Customizable grid layout
+Grid layout for displaying servers (configurable)
 
-Dark/light mode
+Light and dark theme
 
-Quick filtering by name, address, username, description, or category
-
-Inline buttons for test/edit/delete on each server card
+Quick search and filter by name, address, or category
 
 ⚙ Settings
 
-Set server auto-refresh interval
+Set auto-refresh interval
 
-Set number of servers per row
+Configure grid layout (servers per row)
 
-Technical Overview
+Getting Started
 
-Technologies Used
+Launch the app
 
-Dart 3.x
+Use the + button to add a new RDP connection
 
-Flutter (Desktop apps)
+Organize connections into categories
 
-SQLite with sqflite and sqflite_common_ffi
+Click a server card to connect
 
-Platforms: Windows, Linux, macOS
-
-Architecture
-
-MVC-style pattern
-
-RdpConnection, AppSettings models
-
-DatabaseService, RdpService, PingService modules
-
-Dependencies
-
-sqflite, sqflite_common_ffi, intl, path
-
-How to Use
-
-Run the application
-
-Add new connections via the + button
-
-Organize them using categories
-
-Click a card to initiate RDP session
-
-Customize the grid layout from settings
+Use the settings menu to adjust layout and refresh behavior
 
 License
 
 MIT License
+
