@@ -38,7 +38,7 @@ Kurulum ve Kullanım
 
 Uygulamayı çalıştır
 
-+ butonuyla yeni bağlantı ekle
+Artı(+) butonuyla yeni bağlantı ekle
 
 Bağlantıları kategorilere ayır
 
