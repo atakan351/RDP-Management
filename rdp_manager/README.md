@@ -1,104 +1,51 @@
-RDP Yöneticisi
+🔧 Yeni Flutter Projem: RDP Yönetim Uygulaması
 
-RDP Yöneticisi, Windows, Linux ve macOS ortamlarında çalışan, uzak masaüstü bağlantılarını (RDP) yönetmek için geliştirilmiş bir Flutter tabanlı masaüstü uygulamasıdır. Uygulama, RDP bağlantılarını kategorilere ayırmanıza, düzenlemenize, silmenize ve kolayca başlatmanıza imkan tanır.
+Sistem yöneticilerinin ve BT ekiplerinin işlerini kolaylaştırmak amacıyla Flutter ile geliştirdiğim RDP (Uzak Masaüstü Protokolü) Yönetim Uygulamasını sizlerle paylaşmaktan mutluluk duyuyorum.
 
-Özellikler
+🖥️ Öne Çıkan Özellikler:
 
-✉️ Bağlantı Yönetimi
+Sunucuları kategori bazlı gruplandırma (örn. Müşteri, Dahili, vb.)
 
-RDP bağlantıları ekle, düzenle ve sil
+IP, port ve kullanıcı bilgilerini kaydederek otomatik bağlantı
 
-Bağlantıları kategorilere ayır ve listele
+Sunucu çevrimdışı/çevrimiçi durumunu anlık kontrol etme
 
-Tek tıkla bağlantı başlatma
+Durum değiştiğinde anlık bildirim ve çevrimdışında geçen sürenin takibi
 
-⚡ Sunucu Durumu Takibi
+Otomatik durum kontrolü (varsayılan 5 saniyede bir)
 
-Manuel/otomatik sunucu erişilebilirlik kontrolü
+Dinamik arama ve filtreleme
 
-Çevrimdışı sunucular için anında snackbar bildirimi
+Modern ve kullanıcı dostu Flutter arayüzü
 
-Çevrimdışı kalma sürelerini kaydetme
+Bu proje sayesinde sunucu bağlantı yönetimini daha verimli, pratik ve merkezi bir hale getirmeyi hedefledim. 🎯
 
-🔍 Arayüz ve Kullanım
+📌 Geri bildirimlerinizi ve görüşlerinizi memnuniyetle dinlerim!
 
-Grid düzeniyle sunucu kartları (satır sayısı ayarlanabilir)
+#flutter #dart #rdp #remoteaccess #softwaredevelopment #devtools #systemadmin #flutterdesktop
 
-Karanlık/açık tema desteği
+ENGLISH VERSION 🔧 New Flutter Project: RDP Manager Application
 
-Sunucu arama ve filtreleme (isim, adres, kategori vb.)
+I'm excited to share my latest Flutter-based project: an RDP (Remote Desktop Protocol) Management Application designed to streamline remote server management for system admins and IT professionals.
 
-⚙ Ayarlar
+🖥️ Key Features:
 
-Otomatik yenileme süresi ayarlama
+Categorized server organization (e.g., Customer, Internal, etc.)
 
-Grid düzeninde satır başı sunucu sayısı belirleme
+Store credentials (IP, port, username) for one-click RDP access
 
-Kurulum ve Kullanım
+Real-time server availability check with live status indicators
 
-Uygulamayı çalıştır
+Notifications when server goes offline & duration tracking
 
-Artı(+) butonuyla yeni bağlantı ekle
+Optional auto-check feature (default every 5 seconds)
 
-Bağlantıları kategorilere ayır
+Dynamic search and filtering
 
-Sunucu kartlarından RDP bağlantısı başlat
+Clean and intuitive Flutter UI
 
-Ayarlar menüsünden grid yapısını ve yenileme süresini düzenle
+This tool aims to make server connection management more efficient, practical, and centralized. 🎯
 
-Lisans
+📌 I'd love to hear your feedback or ideas for improvement!
 
-MIT Lisansı
-
-RDP Manager
-
-RDP Manager is a cross-platform Flutter application that allows users to manage Remote Desktop (RDP) connections across Windows, Linux, and macOS. Users can organize, monitor, and launch RDP sessions with ease.
-
-Features
-
-🚀 Connection Management
-
-Add, edit, delete RDP connections
-
-Categorize and group connections
-
-One-click to start a session
-
-🔧 Server Monitoring
-
-Manual or automatic reachability check
-
-Real-time offline alerts via snackbar
-
-Track downtime duration
-
-🔍 Interface & Usage
-
-Grid layout for displaying servers (configurable)
-
-Light and dark theme
-
-Quick search and filter by name, address, or category
-
-⚙ Settings
-
-Set auto-refresh interval
-
-Configure grid layout (servers per row)
-
-Getting Started
-
-Launch the app
-
-Use the + button to add a new RDP connection
-
-Organize connections into categories
-
-Click a server card to connect
-
-Use the settings menu to adjust layout and refresh behavior
-
-License
-
-MIT License
-
+#flutter #dart #rdp #remoteaccess #flutterdesktop #softwareengineering #sysadmin #tooling #opensource
